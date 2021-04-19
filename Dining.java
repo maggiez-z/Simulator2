@@ -24,9 +24,15 @@ public class Dining implements Runnable{
         // TODO Auto-generated method stub
         try{
             synchronized(forkRight){
-                doAction();
+                forkRight.pickUp();
                 synchronized(forkLeft){
-                    doAction();
+                    forkLeft.pickUp();
+                }
+            }
+            synchronized(forkRight){
+                forkRight.putBack();
+                synchronized(forkLeft){
+                    forkLeft.putBack();
                 }
             }
 
