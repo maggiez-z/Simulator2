@@ -7,6 +7,7 @@
 //After eating they must put down the fork so that others can eat
 //Infinite amount of food exists
 //Challenge is to create a concurrent algorithm so that everyone can alternate between eating and thinking
+import java.lang.*;
 
 public class Dining implements Runnable{
     //Running philosophers as seperate threads
