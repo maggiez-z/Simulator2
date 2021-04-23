@@ -3,6 +3,7 @@ public class Holding {
     private static class Forks{}
     private Forks fork = new Forks();
     
+    //holding the forks 
     public Holding(){
         putBack();
     }
