@@ -38,7 +38,8 @@ public class Dining implements Runnable{
 
         }
         catch(InterruptedException inter){
-
+            Thread.currentThread().interrupt();
+            return;
         }
         
     }
