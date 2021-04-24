@@ -4,7 +4,7 @@ public class Philosopher implements Runnable{
     private Fork forkRight;
     public boolean isHoldingLeft;
     public boolean isHoldingRight;
-    public boolean isEating;
+    public boolean isEating; //if not, they are "thinking"
     
     public Philosopher(Fork left, Fork right){
         this.left = forkLeft;
@@ -20,12 +20,16 @@ public class Philosopher implements Runnable{
             while(true){
                 synchronized(forkLeft){
                     synchronized(forkRight){
-
+                        isEating = true;
+                        Thread.sleep(1000); 
+                        isEating = false;
                     }
                 }
                 synchronized(forkLeft){
                     synchronized(forkRight){
-
+                        isEating = true;
+                        Thread.sleep(1000); 
+                        isEating = false;
                     }
                 }
             }
@@ -53,7 +57,7 @@ public class Philosopher implements Runnable{
         isHoldingRight = false;
     }
 
-    public void dine() {
+    public void dine() { //This is mostly covered by the synchronized section
         while(true){
             //Basic scenario where you take the fork if you can (doesnt avoid deadlocks)
             if(!forkLeft.isHeld)
