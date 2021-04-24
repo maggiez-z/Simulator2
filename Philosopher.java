@@ -14,14 +14,14 @@ public class Philosopher implements Runnable{
         isEating = false;
     }
 
-    public Philosopher(Fork forkLeft2, forkLeft, forkRight){
+    public Philosopher(Fork forkLeft2, Fork forkLeft, Fork forkRight){
         this.forkLeft2 = forkLeft2;
         this.forkLeft = forkLeft;
         this.forkRight = forkRight;
         isEating = false;
     }
 
-    public Philosopher(Fork forkLeft, forkRight, forkRight2){
+    public Philosopher(Fork forkLeft, Fork forkRight, Fork forkRight2){
         this.forkLeft = forkLeft;
         this.forkRight = forkRight;
         this.forkRight2 = forkRight2;
