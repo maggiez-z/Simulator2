@@ -4,8 +4,16 @@ public class Philosopher implements Runnable{
     private Fork forkRight;
     public boolean isHoldingLeft;
     public boolean isHoldingRight;
+    public boolean isEating;
     
-    
+    public Philosopher(Fork left, Fork right){
+        this.left = forkLeft;
+        this.right = forkRight;
+        isHoldingLeft = false;
+        isHoldingRight = false;
+        isEating = false;
+    }
+
     @Override
     public void run(){
         try{
@@ -55,7 +63,9 @@ public class Philosopher implements Runnable{
             //Eat if you have both forks
             if(isHoldingLeft && isHoldingRight) { 
                 //Eat for 1 second
+                isEating = true;
                 Thread.sleep(1000); 
+                isEating = false;
                 dropLeftFork();
                 dropRightFork();
             }
