@@ -13,7 +13,7 @@ public class Philosophers {
 
         //make philosophers pick up forks
         for(int i = 0; i < philos.length; i++){
-            philos[i] = new Dining(forkLeft, forkRight);
+            philos[i] = new Dining(fork[i], fork[i+1]);
             Thread thread = new Thread(philos[i], "Philosopher " + i);
             thread.start();
         }
