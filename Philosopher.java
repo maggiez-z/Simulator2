@@ -27,4 +27,5 @@ public class Philosopher implements Runnable{
         }
     }
 
+    public void eat
 }
