@@ -6,12 +6,11 @@ public class Simulation {
     Philosopher[] phils = new Philosopher[5];
     Fork[] forks = new Fork[5];
 
-    public void simulate(){
+    public void simulate() throws InterruptedException{
 
         for(int i = 0; i < 5; i++){
             phils[i] = new Philosopher(forks[i], forks[i+1]); //Left fork = i, Right fork = i+1
-            Thread thread = new Thread(philosopher[i], "The philosopher " + (i+1));
-            //phils[i].forkLeft = ; //Left fork
+            new Thread(phils[i], "The philosopher " + (i+1));
         }
 
         while(true){ //Check every second if there is a resource deadlock
@@ -20,7 +19,7 @@ public class Simulation {
                 Thread.sleep(1000); //See if it doesn't change
                 if(!phils[0].isEating && !phils[1].isEating && !phils[2].isEating && !phils[3].isEating && !phils[4].isEating){
                     //Random Drop Strategy: Something where if no philosophers have eaten for 5 seconds, pick one to randomly drop their forks
-                    int r = int(Math.random() * 5.0);
+                    int r = (int)(Math.random() * 5.0);
                     phils[r].dropLeftFork();
                     phils[r].dropRightFork();
 
@@ -37,7 +36,7 @@ public class Simulation {
         
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws InterruptedException{
 
         Simulation sim = new Simulation();
         sim.simulate();
