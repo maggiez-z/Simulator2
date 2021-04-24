@@ -2,7 +2,7 @@ public class Simulation {
 
 
     Philosopher[] phils = new Philosopher[5];
-    Object[] forks = new Object[5];
+    Fork[] forks = new Fork[5];
 
     public void simulate(){
 

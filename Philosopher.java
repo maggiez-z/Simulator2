@@ -1,8 +1,9 @@
 public class Philosopher implements Runnable{
 
-    private Object forkLeft;
-    private Object forkRight;
-    
+    private Fork forkLeft;
+    private Fork forkRight;
+    public boolean isUsingLeft;
+    public boolean isUsingRight;
     
     
     @Override
@@ -27,5 +28,8 @@ public class Philosopher implements Runnable{
         }
     }
 
-    public void eat
+    public void eat() {
+
+    
+    }
 }
