@@ -1,0 +1,5 @@
+public class Philosopher {
+
+    public
+
+}
