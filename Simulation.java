@@ -4,13 +4,23 @@ public class Simulation {
 
     public boolean deadlock;
     Philosopher[] phils = new Philosopher[5];
-    Fork[] forks = new Fork[5];
+    Fork[] forks = new Fork[6];
 
     public void simulate() throws InterruptedException{
 
         for(int i = 0; i < 5; i++){
-            phils[i] = new Philosopher(forks[i], forks[i+1]); //Left fork = i, Right fork = i+1
-            new Thread(phils[i], "The philosopher " + (i+1));
+            if(i == 0) { //Extra fork on the left
+                phils[i] = new Philosopher(forks[6], forks[i], forks[i+1]); //Fork 6 on the left
+                new Thread(phils[i], "The philosopher " + (i+1));
+            }
+            else if(i == 4) {
+                phils[i] = new Philosopher(forks[i], forks[i+1], forks[i+2]); //Fork 6 on the right
+                new Thread(phils[i], "The philosopher " + (i+1));
+            }
+            else {
+                phils[i] = new Philosopher(forks[i], forks[i+1]); //Left fork = i, Right fork = i+1
+                new Thread(phils[i], "The philosopher " + (i+1));
+            }
         }
 
         while(true){ //Check every second if there is a resource deadlock

@@ -4,15 +4,27 @@ public class Philosopher implements Runnable{
 
     private Fork forkLeft;
     private Fork forkRight;
-    public boolean isHoldingLeft;
-    public boolean isHoldingRight;
+    private Fork forkLeft2;
+    private Fork forkRight2;
     public boolean isEating; //if not, they are "thinking"
     
     public Philosopher(Fork forkLeft, Fork forkRight){
         this.forkLeft = forkLeft;
         this.forkRight = forkRight;
-        isHoldingLeft = false;
-        isHoldingRight = false;
+        isEating = false;
+    }
+
+    public Philosopher(Fork forkLeft2, forkLeft, forkRight){
+        this.forkLeft2 = forkLeft2;
+        this.forkLeft = forkLeft;
+        this.forkRight = forkRight;
+        isEating = false;
+    }
+
+    public Philosopher(Fork forkLeft, forkRight, forkRight2){
+        this.forkLeft = forkLeft;
+        this.forkRight = forkRight;
+        this.forkRight2 = forkRight2;
         isEating = false;
     }
 
@@ -20,6 +32,20 @@ public class Philosopher implements Runnable{
     public void run(){
         try{
             while(true){
+                if(forkLeft2 != null){
+                    synchronized(forkRight){
+                        isEating = true;
+                        Thread.sleep(1000); 
+                        isEating = false;
+                    }
+                }
+                else if(forkRight2 != null){
+                    synchronized(forkLeft){
+                        isEating = true;
+                        Thread.sleep(1000); 
+                        isEating = false;
+                    }
+                }
                 synchronized(forkLeft){
                     synchronized(forkRight){
                         isEating = true;
@@ -35,7 +61,7 @@ public class Philosopher implements Runnable{
         }
     }
 
-    public void takeLeftFork(){
+    /*public void takeLeftFork(){
         forkLeft.isHeld = true;
         isHoldingLeft = true;
     }
@@ -69,5 +95,5 @@ public class Philosopher implements Runnable{
                 dropRightFork();
             }
         }
-    }
+    }*/
 }
