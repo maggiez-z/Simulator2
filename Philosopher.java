@@ -8,13 +8,15 @@ public class Philosopher implements Runnable{
     private Fork forkRight2;
     public boolean isEating; //if not, they are "thinking"
     
-    public Philosopher(Fork forkLeft, Fork forkRight){
+    public Philosopher(Fork forkLeft2, Fork forkLeft, Fork forkRight, Fork forkRight2){
+        this.forkLeft2 = forkleft2;
         this.forkLeft = forkLeft;
         this.forkRight = forkRight;
+        this.forkRight2 = forkRight2;
         isEating = false;
     }
 
-    public Philosopher(Fork forkLeft2, Fork forkLeft, Fork forkRight){
+    /*public Philosopher(Fork forkLeft2, Fork forkLeft, Fork forkRight){
         this.forkLeft2 = forkLeft2;
         this.forkLeft = forkLeft;
         this.forkRight = forkRight;
@@ -26,7 +28,7 @@ public class Philosopher implements Runnable{
         this.forkRight = forkRight;
         this.forkRight2 = forkRight2;
         isEating = false;
-    }
+    }*/
 
     @Override
     public void run(){

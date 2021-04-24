@@ -10,15 +10,15 @@ public class Simulation {
 
         for(int i = 0; i < 5; i++){
             if(i == 0) { //Extra fork on the left
-                phils[i] = new Philosopher(forks[6], forks[i], forks[i+1]); //Fork 6 on the left
+                phils[i] = new Philosopher(forks[6], forks[i], forks[i+1], null); //Fork 6 on the left
                 new Thread(phils[i], "The philosopher " + (i+1));
             }
             else if(i == 4) {
-                phils[i] = new Philosopher(forks[i], forks[i+1], forks[i+2]); //Fork 6 on the right
+                phils[i] = new Philosopher(null, forks[i], forks[i+1], forks[i+2]); //Fork 6 on the right
                 new Thread(phils[i], "The philosopher " + (i+1));
             }
             else {
-                phils[i] = new Philosopher(forks[i], forks[i+1]); //Left fork = i, Right fork = i+1
+                phils[i] = new Philosopher(null, forks[i], forks[i+1], null); //Left fork = i, Right fork = i+1
                 new Thread(phils[i], "The philosopher " + (i+1));
             }
         }
