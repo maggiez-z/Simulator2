@@ -22,7 +22,7 @@ public class Philosopher implements Runnable{
             }
         }
         catch(InterruptedException interrupt){
-            Thread.currentThread().inteerupt();
+            Thread.currentThread().interrupt();
             return;
         }
     }
