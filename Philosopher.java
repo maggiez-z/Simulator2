@@ -9,7 +9,7 @@ public class Philosopher implements Runnable{
     public boolean isEating; //if not, they are "thinking"
     
     public Philosopher(Fork forkLeft2, Fork forkLeft, Fork forkRight, Fork forkRight2){
-        this.forkLeft2 = forkleft2;
+        this.forkLeft2 = forkLeft2;
         this.forkLeft = forkLeft;
         this.forkRight = forkRight;
         this.forkRight2 = forkRight2;

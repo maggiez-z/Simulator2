@@ -30,8 +30,8 @@ public class Simulation {
                 if(!phils[0].isEating && !phils[1].isEating && !phils[2].isEating && !phils[3].isEating && !phils[4].isEating){
                     //Random Drop Strategy: Something where if no philosophers have eaten for 5 seconds, pick one to randomly drop their forks
                     int r = (int)(Math.random() * 5.0);
-                    phils[r].dropLeftFork();
-                    phils[r].dropRightFork();
+                    //phils[r].dropLeftFork();
+                    //phils[r].dropRightFork();
 
                     /*Full Reset: Tell everyone to drop their forks (do one or the other)
                     for(int i = 0; i < 5; i++){
