@@ -1,3 +1,5 @@
+import java. util. concurrent. TimeUnit;
+
 public class Philosopher implements Runnable{
 
     private Fork forkLeft;
@@ -18,13 +20,6 @@ public class Philosopher implements Runnable{
     public void run(){
         try{
             while(true){
-                synchronized(forkLeft){
-                    synchronized(forkRight){
-                        isEating = true;
-                        Thread.sleep(1000); 
-                        isEating = false;
-                    }
-                }
                 synchronized(forkLeft){
                     synchronized(forkRight){
                         isEating = true;

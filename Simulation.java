@@ -10,21 +10,25 @@ public class Simulation {
 
         for(int i = 0; i < 5; i++){
             phils[i] = new Philosopher(forks[i], forks[i+1]); //Left fork = i, Right fork = i+1
+            Thread thread = new Thread(philosopher[i], "The philosopher " + (i+1));
             //phils[i].forkLeft = ; //Left fork
-
         }
 
-        while(true){
-            if(!phils[0].isEating && !phils[1].isEating && !phils[2].isEating && !phils[3].isEating && !phils[4].isEating &&){
-                //Random Drop Strategy: Something where if no philosophers have eaten for 5 seconds, pick one to randomly drop their forks
-                int r = int(Math.random() * 5);
-                phils[r].dropLeftFork();
-                phils[r].dropRightFork();
+        while(true){ //Check every second if there is a resource deadlock
+            Thread.sleep(1000);
+            if(!phils[0].isEating && !phils[1].isEating && !phils[2].isEating && !phils[3].isEating && !phils[4].isEating){
+                Thread.sleep(1000); //See if it doesn't change
+                if(!phils[0].isEating && !phils[1].isEating && !phils[2].isEating && !phils[3].isEating && !phils[4].isEating){
+                    //Random Drop Strategy: Something where if no philosophers have eaten for 5 seconds, pick one to randomly drop their forks
+                    int r = int(Math.random() * 5.0);
+                    phils[r].dropLeftFork();
+                    phils[r].dropRightFork();
 
-                //Full Reset: Tell everyone to drop their forks (do one or the other)
-                for(int i = 0; i < 5; i++){
-                phils[i].dropLeftFork();
-                phils[i].dropRightFork();
+                    /*Full Reset: Tell everyone to drop their forks (do one or the other)
+                    for(int i = 0; i < 5; i++){
+                    phils[i].dropLeftFork();
+                    phils[i].dropRightFork();
+                    }*/
                 }
             }
 
