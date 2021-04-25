@@ -8,7 +8,7 @@ public class Simulation {
 
         for(int i = 0; i < 5; i++){
             if(i == 0) { //Extra fork on the left (assignment choice #1)
-                phils[i] = new Philosopher(forks[6], forks[i], forks[i+1], null); //Fork 6 on the left
+                phils[i] = new Philosopher(forks[5], forks[i], forks[i+1], null); //Fork 6 on the left
                 Thread thread = new Thread(phils[i], "The philosopher " + (i+1));
                 thread.start();
             }
