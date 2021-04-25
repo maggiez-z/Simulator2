@@ -60,6 +60,7 @@ public class Philosopher implements Runnable{
             }
         } finally{
             Thread.currentThread().interrupt();
+
         }
     }
 
