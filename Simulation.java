@@ -48,13 +48,14 @@ public class Simulation {
         Simulation sim = new Simulation();
         sim.setup();
         System.out.println("Starting Simulation:\n");
-        sim.simulate();
+        //sim.simulate();
         
 
         for(int i = 0; i < 100; i++){ //total number of iterations/steps (can be any number)
             System.out.println("Step " + i + ":\n");
             for(int j = 0; j < 5; j++){ //for each philosopher
                 //Print if they're eating or thinking
+                phils[j].run();
                 if(phils[j].isEating){
                     System.out.println("Philosopher " + (j + 1) + " is eating");
                     numEats++;
