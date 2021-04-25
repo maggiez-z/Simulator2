@@ -43,8 +43,8 @@ public class Simulation {
     public static void main(String[] args) throws InterruptedException{
         int numThinks = 0;
         int numEats = 0;
-        double thinkTime;
-        double eatTime;
+        double thinkTime = 0;
+        double eatTime = 0;
         Simulation sim = new Simulation();
         sim.setup();
         System.out.println("Starting Simulation:\n");
