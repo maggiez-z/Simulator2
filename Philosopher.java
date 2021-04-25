@@ -83,7 +83,7 @@ public class Philosopher implements Runnable{
         isHoldingRight = false;
     }
 
-    public void run() throws InterruptedException { //This is mostly covered by the synchronized section
+    public void run() { //This is mostly covered by the synchronized section
         if(isEating){
             if(Math.random() < doneEatingProb)
                 isEating = false; //stop eating

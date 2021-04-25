@@ -29,7 +29,7 @@ public class Simulation {
         }
     }
 
-    public void simulate(){
+    public void simulate() throws InterruptedException{
 
         //For loop for every step in the simulation
         for(int i = 0; i < 100; i++){
