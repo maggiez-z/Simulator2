@@ -6,8 +6,8 @@ public class Philosopher implements Runnable{
     private Fork forkRight;
     private Fork forkLeft2;
     private Fork forkRight2;
-    public boolean isHoldingLeft;
-    public boolean isHoldingRight;
+    //public boolean isHoldingLeft;
+    //public boolean isHoldingRight;
     public boolean isEating; //if not, they are "thinking"
     public double doneEatingProb;
     
@@ -34,7 +34,7 @@ public class Philosopher implements Runnable{
         isEating = false;
     }*/
 
-    /*@Override
+    @Override
     public void run(){
         try{
             if(isEating){
@@ -64,9 +64,9 @@ public class Philosopher implements Runnable{
             Thread.currentThread().interrupt();
 
         }
-    }*/
+    }
 
-    public void takeLeftFork(){
+    /*public void takeLeftFork(){
         forkLeft.isHeld = true;
         isHoldingLeft = true;
     }
@@ -109,5 +109,5 @@ public class Philosopher implements Runnable{
             //Eat if you have both forks
             //if(isHoldingLeft && isHoldingRight) { 
             //Eat for 1 second
-    }
+    }*/
 }
