@@ -41,6 +41,10 @@ public class Simulation {
     }
 
     public static void main(String[] args) throws InterruptedException{
+        public static int numThinks;
+        public static int numEats;
+        public static double thinkTime;
+        public static double eatTime;
         Simulation sim = new Simulation();
         sim.setup();
         System.out.println("Starting Simulation:\n");
@@ -48,13 +52,18 @@ public class Simulation {
         
 
         for(int i = 0; i < 100; i++){ //total number of iterations/steps (can be any number)
+            System.out.println("Step " + i + ":\n");
             for(int j = 0; j < 5; j++){ //for each philosopher
                 //Print if they're eating or thinking
                 if(phils[j].isEating)
                     System.out.println("Philosopher " + (j + 1) + " is eating");
+                    numEats++;
                 else
                     System.out.println("Philosopher " + (j + 1) + " is thinking");
+                    numThinks++;
             }
+            eatTime = numEats / i;
+            thinkTime = numThinks / i;
         }
         /* Each philosopher has a left and right fork
             Adjacent philosophers share a fork
