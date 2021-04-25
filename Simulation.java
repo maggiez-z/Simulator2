@@ -4,11 +4,11 @@ public class Simulation {
     static Philosopher[] phils = new Philosopher[5];
     Fork[] forks = new Fork[6];
 
-    public void simulate() throws InterruptedException{
+    public void setup() throws InterruptedException{
         for(int i = 0; i < 6; i++){
             forks[i] = new Fork();
         }
-
+    
         for(int i = 0; i < 5; i++){
             if(i == 0) { //Extra fork on the left (assignment choice #1)
                 phils[i] = new Philosopher(forks[5], forks[i], forks[i+1], null); //Fork 6 on the left
@@ -43,18 +43,27 @@ public class Simulation {
                     phils[i].dropRightFork();
                     }*/
                 }
-            }
-
-            
+            }    
         }
-        
+    }
+
+    public void simulate(){
+
+        //For loop for every step in the simulation
+        for(int i = 0; i < 100; i++){
+            //run for each philosopher
+            for(int j = 0; j < 5; j++){
+                phils[i].run();
+            }
+        }
     }
 
     public static void main(String[] args) throws InterruptedException{
 
         Simulation sim = new Simulation();
-        sim.simulate();
+        sim.setup();
         System.out.println("Starting Simulation:\n");
+        sim.simulate();
 
         for(int i = 0; i < 100; i++){ //total number of iterations/steps (can be any number)
             for(int j = 0; j < 5; j++){ //for each philosopher

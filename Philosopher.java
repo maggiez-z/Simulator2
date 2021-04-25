@@ -1,4 +1,4 @@
-//import java. util. concurrent. TimeUnit;
+import java.lang.Math;
 
 public class Philosopher implements Runnable{
 
@@ -7,6 +7,7 @@ public class Philosopher implements Runnable{
     private Fork forkLeft2;
     private Fork forkRight2;
     public boolean isEating; //if not, they are "thinking"
+    public double doneEatingProb;
     
     public Philosopher(Fork forkLeft2, Fork forkLeft, Fork forkRight, Fork forkRight2){
         this.forkLeft2 = forkLeft2;
@@ -14,6 +15,7 @@ public class Philosopher implements Runnable{
         this.forkRight = forkRight;
         this.forkRight2 = forkRight2;
         isEating = false;
+        doneEatingProb = Math.random();
     }
 
     /*public Philosopher(Fork forkLeft2, Fork forkLeft, Fork forkRight){
@@ -33,27 +35,25 @@ public class Philosopher implements Runnable{
     @Override
     public void run(){
         try{
-            while(true){
+            if(isEating){
+                if(Math.random() < doneEatingProb)
+                    isEating = false; //stop eating
+            }
+            else {
                 if(forkLeft2 != null){
                     synchronized(forkRight){
                         isEating = true;
-                        Thread.sleep(1000); 
-                        isEating = false;
                     }
                 }
                 else if(forkRight2 != null){
                     synchronized(forkLeft){
                         isEating = true;
-                        Thread.sleep(1000); 
-                        isEating = false;
                     }
                 }
                 else{
                     synchronized(forkLeft){
                         synchronized(forkRight){
-                            isEating = true;
-                            Thread.sleep(1000); 
-                            isEating = false;
+                            isEating = true;;
                         }
                     }
                 }
