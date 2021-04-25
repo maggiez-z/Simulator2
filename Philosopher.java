@@ -54,13 +54,16 @@ public class Philosopher implements Runnable{
                         Thread.sleep(10);
                     }
                 }
-                else{
+                else if(forkLeft2 == null && forkRight2 == null){
                     synchronized(forkLeft){
                         synchronized(forkRight){
-                            isEating = true;;
+                            isEating = true;
                             Thread.sleep(10);
                         }
                     }
+                }
+                else{
+                    isEating = false;
                 }
             }
         } catch (InterruptedException e) {
