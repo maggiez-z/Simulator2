@@ -50,7 +50,17 @@ public class Simulation {
 
         Simulation sim = new Simulation();
         sim.simulate();
-        System.out.println("stuff");
+        System.out.println("Starting Simulation:\n");
+
+        for(int i = 0; i < 100; i++){ //total number of iterations/steps (can be any number)
+            for(int j = 0; j < 5; j++){ //for each philosopher
+                //Print if they're eating or thinking
+                if(phils[i].isEating)
+                    System.out.println("Philosopher " + i + " is eating");
+                else
+                    System.out.println("Philosopher " + i + " is thinking");
+            }
+        }
         /* Each philosopher has a left and right fork
             Adjacent philosophers share a fork
             The fork is either held or not held (by one of the philosophers)
