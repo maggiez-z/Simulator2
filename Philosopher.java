@@ -90,7 +90,19 @@ public class Philosopher implements Runnable{
                 dropLeftFork();
                 dropRightFork();
         }
-        //Basic scenario where you take the fork if you can (doesnt avoid deadlocks)
+        else if(forkLeft2 != null){
+            if(!forkRight.isHeld){
+                takeRightFork();
+                isEating = true;
+            }
+        }
+        else if(forkRight2 != null){
+            if(!forkLeft.isHeld){
+                takeLeftFork();
+                isEating = true;
+            }
+        }
+        //Basic scenario where you take the fork (no duplicate)
         else if(!forkLeft.isHeld) {              
                 if(!forkRight.isHeld) {
                     takeLeftFork();
