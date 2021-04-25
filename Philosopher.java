@@ -48,11 +48,13 @@ public class Philosopher implements Runnable{
                         isEating = false;
                     }
                 }
-                synchronized(forkLeft){
-                    synchronized(forkRight){
-                        isEating = true;
-                        Thread.sleep(1000); 
-                        isEating = false;
+                else{
+                    synchronized(forkLeft){
+                        synchronized(forkRight){
+                            isEating = true;
+                            Thread.sleep(1000); 
+                            isEating = false;
+                        }
                     }
                 }
             }

@@ -1,7 +1,7 @@
 public class Simulation {
 
     public boolean deadlock;
-    Philosopher[] phils = new Philosopher[5];
+    static Philosopher[] phils = new Philosopher[5];
     Fork[] forks = new Fork[6];
 
     public void simulate() throws InterruptedException{
