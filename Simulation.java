@@ -64,8 +64,8 @@ public class Simulation {
                     numThinks++;
                 }
             }
-            eatTime = numEats / i;
-            thinkTime = numThinks / i;
+            eatTime = numEats / (i+1);
+            thinkTime = numThinks / (i+1);
             System.out.println(numEats + " Eats, " + numThinks + " Thinks");
             System.out.println("Eating fraction = " + eatTime);
             System.out.println("Thinking fraction = " + thinkTime);
