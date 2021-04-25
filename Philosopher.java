@@ -34,28 +34,32 @@ public class Philosopher implements Runnable{
 
     @Override
     public void run(){
-        if(isEating){
-            if(Math.random() < doneEatingProb)
-                isEating = false; //stop eating
-        }
-        else {
-            if(forkLeft2 != null){
-                synchronized(forkRight){
-                    isEating = true;
-                }
+        try{
+            if(isEating){
+                if(Math.random() < doneEatingProb)
+                    isEating = false; //stop eating
             }
-            else if(forkRight2 != null){
-                synchronized(forkLeft){
-                    isEating = true;
-                }
-            }
-            else{
-                synchronized(forkLeft){
+            else {
+                if(forkLeft2 != null){
                     synchronized(forkRight){
-                        isEating = true;;
+                        isEating = true;
+                    }
+                }
+                else if(forkRight2 != null){
+                    synchronized(forkLeft){
+                        isEating = true;
+                    }
+                }
+                else{
+                    synchronized(forkLeft){
+                        synchronized(forkRight){
+                            isEating = true;;
+                        }
                     }
                 }
             }
+        } finally{
+            Thread.currentThread().interrupt();
         }
     }
 
