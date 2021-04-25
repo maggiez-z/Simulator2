@@ -25,25 +25,7 @@ public class Simulation {
                 Thread thread = new Thread(phils[i], "The philosopher " + (i+1));
                 thread.start();
             }
-        }
-
-        while(true){ //Check every second if there is a resource deadlock
-            Thread.sleep(1000);
-            if(!phils[0].isEating && !phils[1].isEating && !phils[2].isEating && !phils[3].isEating && !phils[4].isEating){
-                Thread.sleep(1000); //See if it doesn't change
-                if(!phils[0].isEating && !phils[1].isEating && !phils[2].isEating && !phils[3].isEating && !phils[4].isEating){
-                    //Random Drop Strategy: Something where if no philosophers have eaten for 5 seconds, pick one to randomly drop their forks
-                    //int r = (int)(Math.random() * 5.0);
-                    //phils[r].dropLeftFork();
-                    //phils[r].dropRightFork();
-
-                    /*Full Reset: Tell everyone to drop their forks (do one or the other)
-                    for(int i = 0; i < 5; i++){
-                    phils[i].dropLeftFork();
-                    phils[i].dropRightFork();
-                    }*/
-                }
-            }    
+            System.out.println("test");
         }
     }
 
@@ -53,7 +35,7 @@ public class Simulation {
         for(int i = 0; i < 100; i++){
             //run for each philosopher
             for(int j = 0; j < 5; j++){
-                phils[i].run();
+                phils[j].run();
             }
         }
     }
@@ -68,10 +50,10 @@ public class Simulation {
         for(int i = 0; i < 100; i++){ //total number of iterations/steps (can be any number)
             for(int j = 0; j < 5; j++){ //for each philosopher
                 //Print if they're eating or thinking
-                if(phils[i].isEating)
-                    System.out.println("Philosopher " + i + " is eating");
+                if(phils[j].isEating)
+                    System.out.println("Philosopher " + (j + 1) + " is eating");
                 else
-                    System.out.println("Philosopher " + i + " is thinking");
+                    System.out.println("Philosopher " + (j + 1) + " is thinking");
             }
         }
         /* Each philosopher has a left and right fork
