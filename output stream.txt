@@ -1,0 +1,1013 @@
+Time to complete 30 ms
+Step 8:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is thinking
+Philosopher 5 is thinking
+29 Eats, 16 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 19 ms
+Step 9:
+
+Philosopher 1 is thinking
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+33 Eats, 17 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 77 ms
+Step 10:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+35 Eats, 20 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 25 ms
+Step 11:
+
+Philosopher 1 is thinking
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+39 Eats, 21 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 48 ms
+Step 12:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+41 Eats, 24 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 13:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is thinking
+Philosopher 5 is eating
+45 Eats, 25 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 47 ms
+Step 14:
+
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+47 Eats, 28 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 15:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+51 Eats, 29 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 45 ms
+Step 16:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+54 Eats, 31 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 29 ms
+Step 17:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+58 Eats, 32 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 30 ms
+Step 18:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+62 Eats, 33 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 19:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+65 Eats, 35 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 20:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+69 Eats, 36 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 30 ms
+Step 21:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+73 Eats, 37 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 17 ms
+Step 22:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+76 Eats, 39 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 23:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+80 Eats, 40 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 30 ms
+Step 24:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+83 Eats, 42 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 25:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+87 Eats, 43 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 30 ms
+Step 26:
+
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+89 Eats, 46 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 27:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+93 Eats, 47 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 44 ms
+Step 28:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+97 Eats, 48 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 29:
+
+Philosopher 1 is thinking
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+100 Eats, 50 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 30:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+103 Eats, 52 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 30 ms
+Step 31:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+107 Eats, 53 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 30 ms
+Step 32:
+
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+109 Eats, 56 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 33:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+113 Eats, 57 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 47 ms
+Step 34:
+
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+115 Eats, 60 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 14 ms
+Step 35:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+119 Eats, 61 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 46 ms
+Step 36:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+123 Eats, 62 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 37:
+
+Philosopher 1 is thinking
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+125 Eats, 65 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 38:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+129 Eats, 66 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 58 ms
+Step 39:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+132 Eats, 68 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 40:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+136 Eats, 69 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 28 ms
+Step 41:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+140 Eats, 70 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 42:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+143 Eats, 72 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 43:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+147 Eats, 73 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 32 ms
+Step 44:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+151 Eats, 74 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 13 ms
+Step 45:
+
+Philosopher 1 is thinking
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+154 Eats, 76 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 46:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+157 Eats, 78 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 32 ms
+Step 47:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+161 Eats, 79 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 44 ms
+Step 48:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+164 Eats, 81 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 49:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+168 Eats, 82 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 28 ms
+Step 50:
+
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+171 Eats, 84 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 51:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+174 Eats, 86 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 31 ms
+Step 52:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+178 Eats, 87 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 31 ms
+Step 53:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is thinking
+Philosopher 5 is thinking
+180 Eats, 90 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 14 ms
+Step 54:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+184 Eats, 91 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 76 ms
+Step 55:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+189 Eats, 91 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 56:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+191 Eats, 94 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 2 ms
+Step 57:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+196 Eats, 94 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 42 ms
+Step 58:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+199 Eats, 96 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 1 ms
+Step 59:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+203 Eats, 97 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 29 ms
+Step 60:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is thinking
+Philosopher 5 is eating
+206 Eats, 99 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 17 ms
+Step 61:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+210 Eats, 100 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 27 ms
+Step 62:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+213 Eats, 102 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 14 ms
+Step 63:
+
+Philosopher 1 is thinking
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+216 Eats, 104 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 34 ms
+Step 64:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+220 Eats, 105 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 30 ms
+Step 65:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+223 Eats, 107 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 66:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+227 Eats, 108 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 44 ms
+Step 67:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+230 Eats, 110 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 68:
+
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+233 Eats, 112 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 30 ms
+Step 69:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+236 Eats, 114 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 31 ms
+Step 70:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+240 Eats, 115 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 29 ms
+Step 71:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+244 Eats, 116 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 18 ms
+Step 72:
+
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+247 Eats, 118 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 14 ms
+Step 73:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+250 Eats, 120 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 29 ms
+Step 74:
+
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+253 Eats, 122 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 28 ms
+Step 75:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+257 Eats, 123 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 32 ms
+Step 76:
+
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+260 Eats, 125 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 17 ms
+Step 77:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+263 Eats, 127 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 28 ms
+Step 78:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+267 Eats, 128 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 29 ms
+Step 79:
+
+Philosopher 1 is thinking
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+271 Eats, 129 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 17 ms
+Step 80:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+275 Eats, 130 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 14 ms
+Step 81:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+279 Eats, 131 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 82:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+283 Eats, 132 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 30 ms
+Step 83:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+287 Eats, 133 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 17 ms
+Step 84:
+
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+289 Eats, 136 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 27 ms
+Step 85:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+293 Eats, 137 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 45 ms
+Step 86:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+297 Eats, 138 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 87:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+300 Eats, 140 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 15 ms
+Step 88:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+304 Eats, 141 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 29 ms
+Step 89:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+307 Eats, 143 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 90:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+311 Eats, 144 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 29 ms
+Step 91:
+
+Philosopher 1 is thinking
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+314 Eats, 146 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 92:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+318 Eats, 147 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 31 ms
+Step 93:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+323 Eats, 147 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 16 ms
+Step 94:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is thinking
+325 Eats, 150 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 4 ms
+Step 95:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is eating
+330 Eats, 150 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 55 ms
+Step 96:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+333 Eats, 152 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 2 ms
+Step 97:
+
+Philosopher 1 is thinking
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+336 Eats, 154 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 28 ms
+Step 98:
+
+Philosopher 1 is eating
+Philosopher 2 is thinking
+Philosopher 3 is eating
+Philosopher 4 is eating
+Philosopher 5 is thinking
+339 Eats, 156 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 32 ms
+Step 99:
+
+Philosopher 1 is eating
+Philosopher 2 is eating
+Philosopher 3 is thinking
+Philosopher 4 is eating
+Philosopher 5 is eating
+343 Eats, 157 Thinks
+Eating fraction = 3.0
+Thinking fraction = 1.0
+Time to complete 29 ms
