@@ -5,6 +5,9 @@ public class Simulation {
     Fork[] forks = new Fork[6];
 
     public void simulate() throws InterruptedException{
+        for(int i = 0; i < 6; i++){
+            forks[i] = new Fork();
+        }
 
         for(int i = 0; i < 5; i++){
             if(i == 0) { //Extra fork on the left (assignment choice #1)
@@ -13,7 +16,7 @@ public class Simulation {
                 thread.start();
             }
             else if(i == 4) {
-                phils[i] = new Philosopher(null, forks[i], forks[i+1], forks[i+2]); //Fork 6 on the right
+                phils[i] = new Philosopher(null, forks[i], forks[i+1], forks[0]); //Fork 6 on the right
                 Thread thread = new Thread(phils[i], "The philosopher " + (i+1));
                 thread.start();                
             }
