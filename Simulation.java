@@ -30,7 +30,6 @@ public class Simulation {
     }
 
     public void simulate() throws InterruptedException{
-
         //For loop for every step in the simulation
         for(int i = 0; i < 100; i++){
             //run for each philosopher
@@ -49,9 +48,12 @@ public class Simulation {
         sim.setup();
         System.out.println("Starting Simulation:\n");
         //sim.simulate();
-        
+        long startTime;
+        long stopTime;
 
-        for(int i = 0; i < 100; i++){ //total number of iterations/steps (can be any number)
+        for(int i = 0; i < 100; i++){
+            startTime = System.nanoTime();
+             //total number of iterations/steps (can be any number)
             System.out.println("Step " + i + ":\n");
             for(int j = 0; j < 5; j++){ //for each philosopher
                 //Print if they're eating or thinking
@@ -70,6 +72,8 @@ public class Simulation {
             System.out.println(numEats + " Eats, " + numThinks + " Thinks");
             System.out.println("Eating fraction = " + eatTime);
             System.out.println("Thinking fraction = " + thinkTime);
+            stopTime = System.nanoTime();
+            System.out.println("Time to complete " + (stopTime - startTime)/1000000 + " ms");
         }
         /* Each philosopher has a left and right fork
             Adjacent philosophers share a fork
