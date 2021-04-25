@@ -66,6 +66,9 @@ public class Simulation {
             }
             eatTime = numEats / i;
             thinkTime = numThinks / i;
+            System.out.println(numEats + " Eats, " + numThinks + " Thinks");
+            System.out.println("Eating fraction = " + eatTime);
+            System.out.println("Thinking fraction = " + thinkTime);
         }
         /* Each philosopher has a left and right fork
             Adjacent philosophers share a fork
