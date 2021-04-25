@@ -6,6 +6,8 @@ public class Philosopher implements Runnable{
     private Fork forkRight;
     private Fork forkLeft2;
     private Fork forkRight2;
+    public boolean isHoldingLeft;
+    public boolean isHoldingRight;
     public boolean isEating; //if not, they are "thinking"
     public double doneEatingProb;
     
@@ -32,7 +34,7 @@ public class Philosopher implements Runnable{
         isEating = false;
     }*/
 
-    @Override
+    /*@Override
     public void run(){
         try{
             if(isEating){
@@ -62,9 +64,9 @@ public class Philosopher implements Runnable{
             Thread.currentThread().interrupt();
 
         }
-    }
+    }*/
 
-    /*public void takeLeftFork(){
+    public void takeLeftFork(){
         forkLeft.isHeld = true;
         isHoldingLeft = true;
     }
@@ -81,22 +83,23 @@ public class Philosopher implements Runnable{
         isHoldingRight = false;
     }
 
-    public void dine() throws InterruptedException { //This is mostly covered by the synchronized section
-        while(true){
-            //Basic scenario where you take the fork if you can (doesnt avoid deadlocks)
-            if(!forkLeft.isHeld)
-                takeLeftFork();
-            if(!forkRight.isHeld)
-                takeRightFork();
-            //Eat if you have both forks
-            if(isHoldingLeft && isHoldingRight) { 
-                //Eat for 1 second
-                isEating = true;
-                Thread.sleep(1000); 
-                isEating = false;
+    public void run() throws InterruptedException { //This is mostly covered by the synchronized section
+        if(isEating){
+            if(Math.random() < doneEatingProb)
+                isEating = false; //stop eating
                 dropLeftFork();
                 dropRightFork();
-            }
         }
-    }*/
+        //Basic scenario where you take the fork if you can (doesnt avoid deadlocks)
+        else if(!forkLeft.isHeld) {              
+                if(!forkRight.isHeld) {
+                    takeLeftFork();
+                    takeRightFork();
+                    isEating = true;
+                }
+        }
+            //Eat if you have both forks
+            //if(isHoldingLeft && isHoldingRight) { 
+            //Eat for 1 second
+    }
 }
